@@ -21,7 +21,7 @@ $form.addEventListener('submit', (e) => {
                 $divResposta.innerHTML = `<p>${compra.error}</p>`
             } else {
                 $divResposta.classList.add('alert', 'alert-info')
-                $divResposta.innerHTML = `<p>Total à pagar: R$ ${compra.total} Desconto: ${compra.desconto}%</p>`
+                $divResposta.innerHTML = `<p>Total a pagar: R$ ${compra.total} Desconto: ${compra.desconto}%</p>`
             }
         })
     }).catch((e) => {
